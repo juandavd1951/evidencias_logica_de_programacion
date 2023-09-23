@@ -25,7 +25,6 @@ resultado = calculadora(5, 3, '+')
 print(resultado)
 ```
 
-Python
 Conteo de Vocales: Crea una función llamada contar_vocales que tome una cadena como argumento y devuelva el número de vocales (a, e, i, o, u) que contiene la cadena.
 Ejemplo de uso:
 ```python
@@ -45,7 +44,7 @@ num_vocales = contar_vocales("Hola, mundo!")
 print(num_vocales)
 
 ```
-Python
+
 
 Primo o No Primo: Escribe una función llamada es_primo que tome un número entero positivo como argumento y determine si es un número primo (es decir, solo es divisible por 1 y por sí mismo). La función debe devolver True si es primo y False si no lo es.
 ```python
@@ -64,7 +63,7 @@ def es_primo(numero):
 resultado = es_primo(2)  
 print(resultado)
 ```
-Python
+
 Contador de Palabras: Escribe una función llamada contar_palabras que tome una cadena como argumento y devuelva el número de palabras en esa cadena. Supón que las palabras están separadas por espacios.
 ```python
 def contar_palabras(cadena):
@@ -77,7 +76,7 @@ def contar_palabras(cadena):
 num_palabras = contar_palabras("Hola, este es un ejemplo. ")
 print(num_palabras)  
 ```
-Python
+
 
 Cálculo de Potencia: Escribe una función llamada potencia que tome dos números enteros como argumentos, uno como base y otro como exponente, y devuelva el resultado de elevar la base al exponente.
 
@@ -91,7 +90,7 @@ def potencia(base, exponente):
 resultado = potencia(2, 2)  
 print(resultado)
 ```
-Python
+
 
 
 
