@@ -19,6 +19,7 @@ Cuenta el número de veces que aparece el número 5 en la lista.
 Elimina el número 5 de la lista.
 Agrega el número 11 a la lista.
 Imprime la lista nuevamente.
+
 Tuplas
 Crea una tupla que contenga las palabras "Hola", "mundo" y "Python".
 Imprime la tupla en el orden en que fue creada.
@@ -29,6 +30,7 @@ Cuenta el número de palabras en la tupla.
 Elimina la palabra "mundo" de la tupla.
 Agrega la palabra "Hola" a la tupla.
 Imprime la tupla nuevamente.
+
 Conjuntos
 Crea un conjunto que contenga los números del 1 al 10.
 Imprime el conjunto.
@@ -41,6 +43,7 @@ Crea un conjunto que contenga las palabras "Hola", "mundo" y "Python".
 Imprime el conjunto.
 Comprueba si la palabra "Hola" está en el conjunto.
 Comprueba si la palabra "mundo" está en el conjunto.
+
 Diccionarios
 Crea un diccionario que asigne los nombres de los días de la semana a sus números correspondientes.
 Imprime el diccionario.
@@ -49,6 +52,7 @@ Obtén el día de la semana del número 2.
 Elimina el día de la semana "Lunes" del diccionario.
 Imprime el diccionario nuevamente.
 
+solucion
 https://colab.research.google.com/drive/1dDFeH86ai8_viaQeyNlCyCh57gr8wckp?usp=sharing
 
 
