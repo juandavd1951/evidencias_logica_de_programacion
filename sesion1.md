@@ -109,9 +109,7 @@ Comandos de Git que deben aprender
 Temas de Python que deben aprender
 Ejemplos de código que deben escribir como práctica
 
-R/ no puedo estoy solo
-Elijan un representante que comparta un resumen de la lista generada con el grupo completo. 
-Actividad: Consulta y creación de infografía para cada tema: Python, Git y GitHub (Trabajo grupal)
+- Actividad: Consulta y creación de infografía para cada tema: Python, Git y GitHub (Trabajo grupal)
 Objetivo: Aprender los conceptos básicos de Python, Git y GitHub y crear una infografía para cada tema que explique de manera clara y visual.
 Instrucciones:
 Investiga sobre Python, Git y GitHub por separado. Busca información sobre qué son, para qué se utilizan y cuáles son sus principales características.
