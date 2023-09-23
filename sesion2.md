@@ -53,6 +53,7 @@ Elimina el día de la semana "Lunes" del diccionario.
 Imprime el diccionario nuevamente.
 
 solucion
+
 https://colab.research.google.com/drive/1dDFeH86ai8_viaQeyNlCyCh57gr8wckp?usp=sharing
 
 
