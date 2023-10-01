@@ -5,91 +5,56 @@
 
 
 <!-- Su documentación aquí -->
-Actividad: Resolver utilizando funciones en Python
-Calculadora Básica: Crea una función llamada calculadora que tome tres argumentos: dos números y un operador (+, -, *, /). La función debe realizar la operación indicada en los dos números y devolver el resultado.
-```python
-def calculadora(num1, num2, operador):
-    if operador == '+':
-        return num1 + num2
-    elif operador == '-':
-        return num1 - num2
-    elif operador == '*':
-        return num1 * num2
-    elif operador == '/':
-        if num2 != 0:  # Verificar que el divisor no sea cero
-            return num1 / num2
-        else:
-            return "Error: División por cero no permitida"
+1. practicar con listas, tuplas, conjuntos y diccionarios en Python.
+Genera un nuevo cuaderno en Google Colab y añade cuatro bloques de código, asignándoles títulos respectivos: "Listas", "Tuplas", "Conjuntos" y "Diccionarios". A continuación, comparte el cuaderno empleando la configuración de "Acceso general - Cualquier persona con el enlace - Editor". A continuación, resuelve los ejercicios que se presentan a continuación:
 
-resultado = calculadora(5, 3, '+')  
-print(resultado)
-```
+Listas
+Crea una lista que contenga los números del 1 al 10.
+Imprime la lista en el orden en que fue creada.
+Ordena la lista en orden ascendente.
+Ordena la lista en orden descendente.
+Encuentra el número más pequeño en la lista.
+Encuentra el número más grande en la lista.
+Cuenta el número de veces que aparece el número 5 en la lista.
+Elimina el número 5 de la lista.
+Agrega el número 11 a la lista.
+Imprime la lista nuevamente.
 
-Conteo de Vocales: Crea una función llamada contar_vocales que tome una cadena como argumento y devuelva el número de vocales (a, e, i, o, u) que contiene la cadena.
-Ejemplo de uso:
-```python
-def contar_vocales(cadena):
-    cadena = cadena.lower()
-   
-    contador = 0
-    
-    for caracter in cadena:
-    
-        if caracter in "aeiou":
-            contador += 1
-    
-    return contador
+Tuplas
+Crea una tupla que contenga las palabras "Hola", "mundo" y "Python".
+Imprime la tupla en el orden en que fue creada.
+Ordena la tupla en orden alfabético.
+Encuentra la primera palabra en la tupla.
+Encuentra la última palabra en la tupla.
+Cuenta el número de palabras en la tupla.
+Elimina la palabra "mundo" de la tupla.
+Agrega la palabra "Hola" a la tupla.
+Imprime la tupla nuevamente.
 
-num_vocales = contar_vocales("Hola, mundo!")  
-print(num_vocales)
+Conjuntos
+Crea un conjunto que contenga los números del 1 al 10.
+Imprime el conjunto.
+Agrega el número 11 al conjunto.
+Elimina el número 5 del conjunto.
+Cuenta el número de elementos en el conjunto.
+Comprueba si el número 5 está en el conjunto.
+Comprueba si el número 11 está en el conjunto.
+Crea un conjunto que contenga las palabras "Hola", "mundo" y "Python".
+Imprime el conjunto.
+Comprueba si la palabra "Hola" está en el conjunto.
+Comprueba si la palabra "mundo" está en el conjunto.
 
-```
+Diccionarios
+Crea un diccionario que asigne los nombres de los días de la semana a sus números correspondientes.
+Imprime el diccionario.
+Obtén el número del día de la semana "Lunes".
+Obtén el día de la semana del número 2.
+Elimina el día de la semana "Lunes" del diccionario.
+Imprime el diccionario nuevamente.
 
+solucion
 
-Primo o No Primo: Escribe una función llamada es_primo que tome un número entero positivo como argumento y determine si es un número primo (es decir, solo es divisible por 1 y por sí mismo). La función debe devolver True si es primo y False si no lo es.
-```python
-def es_primo(numero):
-
-    if numero <= 1:
-        return False
-
-    for i in range(2, int(numero**0.5) + 1):
-        if numero % i == 0:
-            return False
-
-    return True
-
-
-resultado = es_primo(2)  
-print(resultado)
-```
-
-Contador de Palabras: Escribe una función llamada contar_palabras que tome una cadena como argumento y devuelva el número de palabras en esa cadena. Supón que las palabras están separadas por espacios.
-```python
-def contar_palabras(cadena):
-
-    palabras = cadena.split()
-
-    return len(palabras)
-
-
-num_palabras = contar_palabras("Hola, este es un ejemplo. ")
-print(num_palabras)  
-```
-
-
-Cálculo de Potencia: Escribe una función llamada potencia que tome dos números enteros como argumentos, uno como base y otro como exponente, y devuelva el resultado de elevar la base al exponente.
-
-```python
-def potencia(base, exponente):
- 
-    resultado = base ** exponente
-    return resultado
-
-
-resultado = potencia(2, 2)  
-print(resultado)
-```
+https://colab.research.google.com/drive/1dDFeH86ai8_viaQeyNlCyCh57gr8wckp?usp=sharing
 
 
 
