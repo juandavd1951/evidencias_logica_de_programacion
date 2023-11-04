@@ -40,6 +40,28 @@ df = df.dropna()
 
 print(df)
 ```
+Documentación de Problemas de Datos:
+1. Codificación de Caracteres:
+Problema: Los datos contienen caracteres especiales como "Ã±" en lugar de "ñ" y "Ã¡" en lugar de "á".
+Solución: Se requiere una corrección en la codificación de caracteres para mostrar los datos correctamente.
+2. Datos Faltantes:
+Problema: Algunos campos importantes tienen valores faltantes. Por ejemplo, el precio de la camioneta Ford en el tercer registro y el año del modelo de la camioneta Ford en el mismo registro.
+Solución: Puedes decidir llenar los valores faltantes con datos predeterminados o eliminar las filas con datos incompletos, dependiendo del contexto y la importancia de los registros.
+3. Tipos de Datos Incorrectos:
+Problema: El campo "Año" está representado como cadena de texto en lugar de tipo numérico, lo que dificulta las operaciones matemáticas.
+Solución: Convertir el campo "Año" a tipo numérico para realizar cálculos matemáticos.
+4. Formato de Fecha Incorrecto:
+Problema: El campo "Fecha" está en formato de texto. Para realizar análisis temporal, sería más útil si estuviera en formato de fecha.
+Solución: Convertir el campo "Fecha" al formato de fecha adecuado para facilitar las operaciones de análisis temporal.
+5. Descuentos y Precio Inconsistentes:
+Problema: Algunos vehículos tienen descuentos, pero el precio no parece estar ajustado en consecuencia.
+Solución: Verificar la consistencia de los datos y ajustar los precios de acuerdo con los descuentos, o asegurarse de que los descuentos estén correctamente aplicados.
+6. Valores No Válidos en el Campo "Vendido":
+Problema: El campo "Vendido" tiene valores booleanos, pero hay registros donde el valor es "False" (cadena de texto) en lugar de False (booleano).
+Solución: Convertir los valores del campo "Vendido" a tipo booleano para garantizar la coherencia y facilitar futuros análisis.
+7. Inconsistencia en el Campo "Estado":
+Problema: Algunos vehículos están etiquetados como "Usado" y "Nuevo" en el campo "Estado", lo que puede ser contradictorio.
+Solución: Verificar la coherencia de los datos y, si es necesario, estandarizar la terminología para el campo "Estado".
 
 
 
